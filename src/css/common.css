@@ -12,7 +12,33 @@ body {
   line-height: 1.5;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(117, 50, 205);
+  font-family:'Montserrat', sans-serif;
+  font-weight: 700;
+}
 img {
   display: block;
   max-width: 100%;
 }
+.btn {
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  border: 2px, #000000;
+  border-radius: 10px;
+  background-color: violet;
+  margin-right: 15px;
+  }
+  .text {
+    font-size: 30px;
+    color: yellow;
+    font-weight: 600;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 280px;
+  }
