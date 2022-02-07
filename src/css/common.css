@@ -42,3 +42,22 @@ img {
     align-items: center;
     margin: 280px;
   }
+  .timer {
+    display: flex;
+    font-family: Verdana, sans-serif;
+    color: red;
+    font-weight: 800;
+  }
+  
+ .field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-right: 20px;
+  justify-content: center;
+  font-size: 15px;
+}
+.value {
+  font-size: 40px;
+
+}
